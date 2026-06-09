@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { supabase } from '../../lib/supabase'
+import UploadPhoto from '../../components/UploadPhoto'
 
 export default function StudentsPage() {
 
@@ -25,6 +26,7 @@ export default function StudentsPage() {
       <h1 className="text-3xl font-bold">
         Data Siswa
       </h1>
+    <UploadPhoto />
 
       <table className="w-full mt-6 bg-white rounded-xl shadow">
 
